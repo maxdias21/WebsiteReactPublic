@@ -1,0 +1,11 @@
+.container {
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        display: none;
+    }
+}

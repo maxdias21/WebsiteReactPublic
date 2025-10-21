@@ -1,0 +1,36 @@
+.message {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.error {
+    background: #F8D7DA;
+    color: #49121D;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #0B2E13;
+}
+
+.message button {
+    border: none;
+    background: none;
+    margin-left: auto;
+    color: #615f5f;
+    font-weight: bold;
+}
+
+.message button:hover {
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+.message p {
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}

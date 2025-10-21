@@ -1,0 +1,13 @@
+.label {
+    display: block;
+}
+
+.input {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 0;
+    padding: 3px 4px 3px 4px;
+    width: 96%;
+}

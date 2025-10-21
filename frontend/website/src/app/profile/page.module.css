@@ -1,0 +1,75 @@
+/* ===============================
+   Containers principais
+   =============================== */
+.profileContainer,
+.contentContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ===============================
+   Content Container
+   =============================== */
+.contentContainer {
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    grid-template-columns: 1fr;
+}
+
+/* ===============================
+   Conteúdo interno
+   =============================== */
+.content {
+    display: flex;
+    padding: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/* ===============================
+   Nome e imagem do perfil
+   =============================== */
+.name {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.imgProfile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ===============================
+   Responsividade
+   =============================== */
+@media (max-width: 768px) {
+    .profileContainer,
+    .contentContainer {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .imgProfile,
+    .name {
+        margin: 0 auto;
+    }
+
+    .contentContainer {
+        margin-bottom: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .name {
+        margin-top: 20px;
+    }
+}

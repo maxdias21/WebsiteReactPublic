@@ -1,0 +1,51 @@
+/* ===============================
+   Container principal
+   =============================== */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===============================
+   Label com ícone
+   =============================== */
+.iconLabel {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.iconLabel:hover {
+    background-color: #E6E8EA;
+}
+
+/* ===============================
+   Foto do usuário
+   =============================== */
+.photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* ===============================
+   Texto do usuário
+   =============================== */
+.text {
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+/* ===============================
+   Horário ou data
+   =============================== */
+.hour {
+    margin-left: 10px;
+    margin-top: -3px;
+    font-size: 0.8em;
+    color: #95979A;
+}

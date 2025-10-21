@@ -1,0 +1,39 @@
+/* ===============================
+   Container principal
+   =============================== */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 100%;
+}
+
+.containerRight,
+.containerCenter {
+    padding-left: 10px;
+}
+
+.containerCenter {
+    border: 10px solid black;
+    text-align: center;
+}
+
+.noContact {
+    text-align: center;
+}
+
+/* ===============================
+   Responsividade
+   Medium devices (tablets, max-width: 768px)
+   =============================== */
+@media (max-width: 768px) {
+    .containerRight {
+        display: none;
+    }
+
+    .container {
+        grid-template-columns: 0.9fr;
+        justify-content: center;
+    }
+}

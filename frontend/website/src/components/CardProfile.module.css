@@ -1,0 +1,79 @@
+/* Containers */
+.cardContainer {
+    padding: 10px;
+    padding-top: 0;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 0 6px 1px rgba(0, 0, 0, 0.2), -3px 0 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagens */
+.imgProfile {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Textos */
+.h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-left: 34px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.disabled, .enabled {
+    border: none;
+}
+
+.disabled {
+    pointer-events: none;
+    text-decoration: line-through;
+}
+
+.enabled {
+    pointer-events: all;
+}
+
+/* Botões / Links */
+.visitProfile, .private, .public {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    color: #006ED2;
+    background-color: #ebf5ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.private, .public {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.private {
+    background-color: #d32f2f;
+}
+
+.public {
+    background-color: #388e3c;
+}
+
+.visitProfile:hover {
+    background-color: #DFE9F2;
+}
+

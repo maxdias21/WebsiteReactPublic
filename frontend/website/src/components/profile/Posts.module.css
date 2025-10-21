@@ -1,0 +1,33 @@
+.posts {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.content {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    word-break: break-all;
+    color: #212536;
+}
+
+.postContent {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}

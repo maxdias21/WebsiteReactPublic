@@ -1,0 +1,44 @@
+/* ===============================
+   Container do CreatePostBox
+   =============================== */
+.content {
+    background-color: #fff;
+    width: 100%;
+    padding: 0 20px 10px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 0 0 #ccc;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* ===============================
+   Foto do usuário
+   =============================== */
+.photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 13px;
+}
+
+/* ===============================
+   Botão de criação de post
+   =============================== */
+.buttonField {
+    width: 100%;
+    padding: 7px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    border-radius: 15px;
+    background: #f0f2f5;
+    border: #f0f2f5;
+    text-align: left;
+    color: #717478;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.buttonField:hover {
+    background: #E4E6E9;
+}

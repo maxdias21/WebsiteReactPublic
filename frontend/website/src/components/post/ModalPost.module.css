@@ -1,0 +1,91 @@
+/* Dialog */
+.containerDialog {
+    display: flex
+}
+
+.dialog {
+    border: 1px solid #ccc;
+    height: 350px;
+    width: 30%;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 0 2px 2px #ccc,
+    -2px 0 2px 2px #ccc;
+}
+
+.textArea {
+    border: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+    height: 180px;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.textArea:focus {
+    outline: none;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonClose {
+    background-color: #e8e8e8;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    color: #5B626A;
+    border: none;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.buttonClose:hover {
+    background-color: #D6D9DD;
+}
+
+.button {
+    width: 100%;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0861F2;
+    color: #F2F2F2;
+    transition: 0.2s ease-in-out;
+}
+
+.img {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.error {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.9em;
+}
+
+@media (max-width: 991.98px) {
+    .dialog {
+        width: 70%;
+    }
+}
